@@ -37,7 +37,29 @@
 ![3 5](https://user-images.githubusercontent.com/76457594/210311435-e6f8aa0c-dc0c-44a6-84e7-6e4c91e4ea87.png)
 
 
- 6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+6. Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+   
     - ``` cat > devops.txt ```
+      
     <img width="552" height="199" alt="image" src="https://github.com/user-attachments/assets/5b75acb2-2271-42dc-a84c-0c8486c40e49" />
+
+7. To Show only top three fruits from the file.
+   
+    - ``` head -n 3 devops.txt ```
+      
+    <img width="618" height="128" alt="image" src="https://github.com/user-attachments/assets/796b94ef-a75a-4189-88e7-9e5f93ff1b5f" />
+
+8. To Show only bottom three fruits from the file.
+
+   - ``` tail -n 3 devops.txt ```
+  
+     <img width="594" height="133" alt="image" src="https://github.com/user-attachments/assets/e4b24fa8-f5f4-4633-9409-2a24dcb7231c" />
+
+11. To find the difference between devops.txt and Colors.txt file.
+
+    - ``` diff devops.txt colors.txt ```
+   
+    <img width="681" height="521" alt="image" src="https://github.com/user-attachments/assets/fc6d8389-7599-4fdb-bf09-0f03424a3c2c" />
+
+
 
