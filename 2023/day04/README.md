@@ -2,7 +2,7 @@
 
 ## What is Kernel
 
-The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It manages communication between the hardware and the software. It provides a user interface, file system management, network services, and various utility applications that allow users to interact with the system.
 
 ## What is Shell
 
@@ -14,11 +14,35 @@ A shell script is a computer program designed to be run by a linux shell, a comm
 
 **Tasks**
 
-- Explain in your own words and examples, what is Shell Scripting for DevOps 
+- Explain in your own words and examples, what is Shell Scripting for DevOps
+
   - ```Shell Scripting:- writing series of linux cmds and executing them automatically by a Shell. Instead of typing cmds one by one, we can group them into single       script to automate repetative tasks. ```
+  
 - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+  
+  - ``` The very first line of shell script that tells the OS which interpreter to use while executing the file.  ```
+    
 - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+  
+  ` #!/bin/bash
+   echo "I will complete #90DaysOofDevOps challenge" `
+  
 - Write a Shell Script to take user input, input from arguments and print the variables.
+
+` #!/bin/bash
+  echo "Enter your name: "
+  read name
+  echo "Enter your age: "
+  read age
+  echo "Arguments"
+  city=$1
+  country=$2
+  echo "Name: $name"
+  echo "Age: $age"
+  echo "City: $city"
+  echo "Country: %country"
+  `
+  
 - Write an Example of If else in Shell Scripting by comparing 2 numbers
 
 Was it difficult?
